@@ -8,7 +8,3 @@ def my_each (array)
   end  
   array
 end
-
-my_each([2,4,6,8]) do |i|
-  yield i 
-end
