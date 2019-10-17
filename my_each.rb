@@ -2,7 +2,7 @@ require 'pry'
 
 def my_each (array)
   i = 0
-  while array.length < i
+  while i > array.length
    yield
   end  
 end
